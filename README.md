@@ -1,3 +1,3 @@
 ## Motoko Queue
 
-Functional FIFO Queue implementation for the Motoko programming language.
+Functional FIFO queue implementation for the Motoko programming language.
