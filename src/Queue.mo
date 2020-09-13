@@ -44,7 +44,7 @@ module {
                  // It contains value(s), reverse it, set it as 
                  // the second list, and pass it into dequeue again.
                  // The value and queue that come back get returned.
-                let swapped = ( List.nil<T>(), List.rev<T>(q.0) );
+                let swapped = ( List.nil<T>(), List.reverse<T>(q.0) );
                 return dequeue<T>(swapped);
             };
             case null {
