@@ -21,6 +21,10 @@ module {
             case ( _ )          false;
         };
     };
+
+    public func size<T>(q: Queue<T>) :  Nat {
+        List.size(q.0) + List.size(q.1);
+    };
     
     public func enqueue<T>(v: T, q:Queue<T>) : Queue<T> {
         // Cons onto the first list
